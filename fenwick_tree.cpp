@@ -19,6 +19,7 @@ int main(){
     vector<int> arr(n);
     for(int i=0;i<n;i++){
         cin>>arr[i];
+        update(i,arr[i],arr.size());
     }
     int q;
     cin>>q;
