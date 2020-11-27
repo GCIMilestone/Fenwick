@@ -34,7 +34,7 @@ int main(){
         else{
             int l,r;
             cin>>l>>r;
-            cout<<squery(r)-squery(l)<<endl;
+            cout<<squery(r)-squery(l-1)<<endl;
         }
     }
 }
